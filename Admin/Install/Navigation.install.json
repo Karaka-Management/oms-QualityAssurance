@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1008701001,
+        "pid": "/",
+        "type": 2,
+        "subtype": 1,
+        "name": "QualityAssurance",
+        "uri": "{/base}/qualitymanagement/qualityassurance/list",
+        "target": "self",
+        "icon": null,
+        "order": 65,
+        "from": "QualityAssurance",
+        "permission": { "permission": 2, "category": null, "element": null },
+        "parent": 1008501001,
+        "children": [
+            {
+                "id": 1008702001,
+                "pid": "/qualitymanagement/qualityassurance",
+                "type": 3,
+                "subtype": 1,
+                "name": "List",
+                "uri": "{/base}/qualitymanagement/qualityassurance/list",
+                "target": "self",
+                "icon": null,
+                "order": 1,
+                "from": "QualityAssurance",
+                "permission": { "permission": 2, "category": null, "element": null },
+                "parent": 1008701001,
+                "children": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+{
+    "name": {
+        "id": 1008700000,
+        "internal": "QualityAssurance",
+        "external": "QualityAssurance"
+    },
+    "category": "Tools",
+    "version": "1.0.0",
+    "requirements": {
+        "phpOMS": "1.0.0",
+        "phpOMS-db": "1.0.0"
+    },
+    "creator": {
+        "name": "Jingga",
+        "website": "jingga.app"
+    },
+    "description": "The administration module.",
+    "directory": "QualityAssurance",
+    "dependencies": {
+        "Admin": "1.0.0",
+        "Tasks": "1.0.0",
+        "Tools": "1.0.0"
+    },
+    "providing": {
+        "Navigation": "*"
+    },
+    "load": [
+        {
+            "pid": [
+                "/qualitymanagement/qualityassurance"
+            ],
+            "type": 4,
+            "for": "Content",
+            "file": "QualityAssurance",
+            "from": "QualityAssurance"
+        },
+        {
+            "pid": [
+                "/"
+            ],
+            "type": 5,
+            "from": "QualityAssurance",
+            "for": "Navigation",
+            "file": "Navigation"
+        }
+    ]
+}

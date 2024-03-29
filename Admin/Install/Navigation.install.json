@@ -26,8 +26,10 @@
                 "from": "QualityAssurance",
                 "permission": { "permission": 2, "category": null, "element": null },
                 "parent": 1008701001,
-                "children": []
+                "children": [],
+                "status": 3
             }
-        ]
+        ],
+        "status": 3
     }
 ]
